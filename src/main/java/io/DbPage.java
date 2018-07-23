@@ -4,10 +4,10 @@ import java.util.List;
 
 public class DbPage {
 
-    public byte pageType;
+    public byte pageType;    
 
     /*
-     * Field identifies the number of records in the page.
+     * Field which identifies the number of records in the page.
      */
     public  byte numberOfRecords;
 
