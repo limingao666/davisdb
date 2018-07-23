@@ -1,6 +1,6 @@
 package io;
 
-public class IOManager {
+public class BinaryIOManager {
 
     public DbPage readTablePage(int memAddress) {
 
