@@ -1,9 +1,8 @@
+package examples;
+
 import java.io.RandomAccessFile;
 import java.io.File;
-import java.io.FileReader;
-import java.util.Scanner;
-import java.util.SortedMap;
-import java.lang.Math.*;
+
 import static java.lang.System.out;
 
 
@@ -79,7 +78,7 @@ public class DavisBaseBinaryFileExample {
             out.println();
 
 
-            // HexDump.displayBinaryHex(binaryFile, headerEveryNBytes);
+            // examples.HexDump.displayBinaryHex(binaryFile, headerEveryNBytes);
             HexDump.displayBinaryHex(binaryFile, 512);
             binaryFile.close();
 

@@ -1,3 +1,5 @@
+package examples;
+
 import java.io.RandomAccessFile;
 import java.io.File;
 import java.io.FileReader;
@@ -15,7 +17,7 @@ import static java.lang.System.out;
 public class HexDump {
 
 	public static void main(String[] args) {
-		out.println("HexDump\n(c)2018 Chris Irwin Davis");
+		out.println("examples.HexDump\n(c)2018 Chris Irwin Davis");
 		// if(args.length)
 		try {
 			RandomAccessFile file = new RandomAccessFile(args[0],"r");
